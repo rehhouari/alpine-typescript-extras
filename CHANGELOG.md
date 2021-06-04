@@ -8,4 +8,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/pinecone-router/router/compare/0.0.0...HEAD
+[unreleased]: https://github.com/rehhouari/alpine-typescript-extras/compare/0.0.0...HEAD
