@@ -11,7 +11,7 @@ Extra types for Alpine.js, extending [`alpine-typescript`](https://github.com/ar
 
 Extra TypeScript definitions for Alpine.js. This adds support for more magic helpers and such in Alpine Components.
 
-Currently this only extend `AlpineComponent` type.
+Currently this only extend the `AlpineComponent` type. See [`alpine-typescript`](https://github.com/archtechx/alpine-typescipt) for usage.
 
 Primarily for use with the [Rapide](https://github.com/rehhouari/rapide) template.
 
