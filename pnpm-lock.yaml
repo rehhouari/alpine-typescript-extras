@@ -1,0 +1,63 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@leanadmin/alpine-typescript': ^0.1.25
+  alpinejs-i18n: ^0.0.3
+  axios: ^0.21.1
+  pinecone-router: ^1.0.4
+  typescript: ^4.2.2
+
+dependencies:
+  '@leanadmin/alpine-typescript': 0.1.25
+  alpinejs-i18n: 0.0.3
+  axios: 0.21.1
+  pinecone-router: 1.0.4
+
+devDependencies:
+  typescript: 4.3.2
+
+packages:
+
+  /@leanadmin/alpine-typescript/0.1.25:
+    resolution: {integrity: sha512-4rv+UA7BbCCZsubI9stt2qsakvPz0m5R6RRnwyUJLBQJjvhcDO/u368eo+5aKIxswb1+D+hjT4aPnCCZl843Ag==}
+    dev: false
+
+  /alpinejs-i18n/0.0.3:
+    resolution: {integrity: sha512-u5POh3+FT8B+eecxBTbCLgOWmmMI+Puu6dE2+Ii3WazXFMYkmhL8kIAqYd5nqeNRS3PHdaYDzb2+I4mHaAduJQ==}
+    dependencies:
+      alpinejs: 2.8.2
+    dev: false
+
+  /alpinejs/2.8.2:
+    resolution: {integrity: sha512-5yOUtckn4CBp0qsHpo2qgjZyZit84uXvHbB7NJ27sn4FA6UlFl2i9PGUAdTXkcbFvvxDJBM+zpOD8RuNYFvQAw==}
+    dev: false
+
+  /axios/0.21.1:
+    resolution: {integrity: sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==}
+    dependencies:
+      follow-redirects: 1.14.1
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /follow-redirects/1.14.1:
+    resolution: {integrity: sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
+
+  /pinecone-router/1.0.4:
+    resolution: {integrity: sha512-yhvlaLomsoNLqLgkBALRUZDnD5yDSORb0JS/RI7x+VSMIYweFDNdBHSnkI+oxtucrEwHIAiauZ47w5N5eoYdcQ==}
+    dependencies:
+      alpinejs: 2.8.2
+    dev: false
+
+  /typescript/4.3.2:
+    resolution: {integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true

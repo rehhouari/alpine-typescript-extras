@@ -1,11 +1,11 @@
 {
-    "name": "{npm-package}",
-    "version": "0.0.0",
-    "description": "{description}",
+    "name": "alpine-typescript-extras",
+    "version": "0.0.1",
+    "description": "Extra TypeScript definitions for Alpine.js",
     "main": "dist/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/{repository}.git"
+        "url": "git+https://github.com/rehhouari/alpine-typescript-extras.git"
     },
     "files": [
         "src/index.ts",
@@ -19,13 +19,19 @@
     "keywords": [
         "typescript"
     ],
-    "author": "{author}",
+    "author": "Rafik El Hadi Houari <rehhouari@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/{repository}./issues"
+        "url": "https://github.com/rehhouari/alpine-typescript-extras./issues"
     },
-    "homepage": "https://github.com/{repository}.#readme",
+    "homepage": "https://github.com/rehhouari/alpine-typescript-extras.#readme",
     "devDependencies": {
         "typescript": "^4.2.2"
+    },
+    "dependencies": {
+        "@leanadmin/alpine-typescript": "^0.1.25",
+        "alpinejs-i18n": "^0.0.3",
+        "axios": "^0.21.1",
+        "pinecone-router": "^1.0.4"
     }
 }

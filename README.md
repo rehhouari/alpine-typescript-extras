@@ -1,24 +1,19 @@
-# typescript-package-template
-A template to create a simple typescript package, like only types.
+# alpine-typescript-extras
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/{repository})](https://github.com/{repository}/tree/0.0.0)
-[![Downloads from Jsdelivr NPM](https://img.shields.io/jsdelivr/npm/hm/{npm-package})](https://www.jsdelivr.com/package/npm/{npm-package})
-[![npm installs](https://img.shields.io/npm/dm/{npm-package})](https://npmjs.com/package/{npm-package})
+Extra types for Alpine.js, extending [`alpine-typescript`](https://github.com/archtechx/alpine-typescipt)
+
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/rehhouari/alpine-typescript-extras)](https://github.com/rehhouari/alpine-typescript-extras/tree/0.0.1)
+[![Downloads from Jsdelivr NPM](https://img.shields.io/jsdelivr/npm/hm/alpine-typescript-extras)](https://www.jsdelivr.com/package/npm/alpine-typescript-extras)
+[![npm installs](https://img.shields.io/npm/dm/alpine-typescript-extras)](https://npmjs.com/package/alpine-typescript-extras)
 [![Changelog](https://img.shields.io/badge/change-log-log)](/CHANGELOG.md)
 
 ## About
 
-{package-description}
+Extra TypeScript definitions for Alpine.js. This adds support for more magic helpers and such in Alpine Components.
 
-Be sure to do a site wide search/replace for the following:
+Currently this only extend `AlpineComponent` type.
 
-```
-{author-name} - Example: Rafik El Hadi Houari
-{current-year} - Example: 2021
-{package-description} - The summary
-{npm-package} - The name of your npm package. Example: `plugin-name`
-{repository} -  The full github repository path. Example: `username/plugin-name`
-```
+Primarily for use with the [Rapide](https://github.com/rehhouari/rapide) template.
 
 ## Versioning
 
@@ -26,6 +21,6 @@ This projects follow the [Semantic Versioning](https://semver.org/) guidelines.
 
 ## License
 
-Copyright (c) {current-year} {author-name} and contributors
+Copyright (c) 2021 Rafik El Hadi Houari and contributors
 
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.
